@@ -1,0 +1,107 @@
+/* home */
+.news-product{
+    width: calc((100% / 4) - 30px);
+}
+.new-product > p{
+    margin: 40px;
+    font-size: 40px;
+    font-weight: 450;
+}
+.hot-product > p{
+    margin: 40px;
+    font-size: 40px;
+    font-weight: 450;
+}   
+.news > p{
+    margin: 40px;
+    font-size: 40px;
+    font-weight: 450;
+}
+.row-product{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.row-product > div{
+	margin: 0 10px;
+    width: calc((100% / 5) - 20px);
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+.product-title{
+    text-decoration: none !important;
+	color: black;
+}
+.product{
+    border-bottom: 1px dashed rgb(194, 184, 184);
+}
+.product  p{
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.product > a{
+    text-decoration: none;
+    color: black;
+}
+.product > a:hover{
+    color: #007bff;
+}
+.price{
+    margin-top: 0;
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.detail{
+    position: absolute;
+    width: 100%;
+    display: none;
+    bottom:0px;
+
+}
+.detail > button{
+	width: calc((100% / 2) - 2px);
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 10px;
+    color: white ;
+    font-weight: 300;
+    font-size: 15px;
+}
+.detail > button > a{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+}
+.row-product > div:hover .detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.title-content{
+    padding: 40px 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.content{
+    text-align: justify;
+}
+.content span a{
+    color: brown;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

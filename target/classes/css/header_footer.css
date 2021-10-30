@@ -1,0 +1,206 @@
+
+#message .message{
+    position: fixed;
+    top: -100px;
+    left: calc(100% / 2  - 200px);
+    max-width: 400px;
+    transition: 1s;
+    z-index: 1;
+}
+
+
+.icon{
+    font-size: 30px;
+    top: 50px;
+    right: 40px;
+}
+.icon > span{
+    margin-right: 15px;
+    color: black;
+    cursor: pointer;
+}
+.icon > .login{
+    font-size: 15px;
+}
+.icon > .search{
+    font-size: 25px;
+}
+.box-login{
+	font-size: 15px;
+    position: absolute;
+    text-align: left;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+    top: 44px;
+    left: -46px;
+}
+.login:hover + .box-login{
+    opacity: 1;
+}
+.box-login:hover{
+	opacity: 1;
+}
+
+/*icon login*/
+.icon-login{
+    font-size: 30px;
+    top: 30px;
+    right: 40px;
+}
+.icon-login > span{
+    margin-right: 15px;
+    color: black;
+    cursor: pointer;
+}
+.icon-login > span:first-child{
+    font-size: 15px;
+}
+.icon-login > span:nth-child(2){
+    font-size: 25px;
+}
+
+#cartIndex{
+    font-size: 15px;
+    top: 13px;
+    right: 9px;
+}
+
+
+/* menu */
+.menu-cha > li{
+    position: relative;
+}
+.menu-con{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.menu-cha a{
+    display: block;
+    background-color: white !important;
+}
+.menu-cha a:hover{
+    color: #f56200;
+}
+.menu-cha > li:hover .menu-con{
+    display: block;
+    min-width: 200px;
+    background-color: white;
+}
+
+
+/* search - bar */
+.search-bar{
+    width: 500px;
+    height: 100vh;
+    background-color: white;
+    top: 0;
+    right: 0;
+    margin-right: -500px;
+    transition: 1s;
+    z-index: 1;
+}
+.search-bar-content{
+    width: 350px;
+    margin: auto;
+    margin-top: 80px;
+}
+.search-bar-content > div:first-child{
+    font-weight: 450;
+}
+.search-bar-content > div:first-child span{
+    font-size: 25px;
+}
+.search-bar-content > div:last-child{
+    margin-top: 50px;
+}
+.search-bar-content form input{
+    width: 350px;
+    height: 50px;
+    padding-left: 20px;
+    border: none;
+    background-color: #f5f5f5;
+    outline: none;
+}
+.search-bar-content form button{
+    position: absolute;
+    top: 168px;
+    right: 90px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #bfc7c7;
+    outline: none;
+}
+
+.search-product{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(199, 192, 192, 0.4);
+    font-size: 15px;
+    display: flex;
+}
+
+.search-content{
+    width: 80%;
+    
+}
+
+.search-content a{
+	color: black;
+	text-decoration: none;
+}
+
+.search-content a:hover{
+	color: #f56200;
+}
+
+.search-img{
+    width: 20%;
+}
+
+
+.footer-top{
+    height: 110px;
+    background-color: rgb(221, 217, 217);
+    margin-top: 50px;
+}
+.footer-top input{
+    width: 400px;
+    height: 45px;
+    border: 1px rgb(117, 115, 115) solid;
+    padding-left: 20px;
+}
+.footer-top button{
+    width: 130px;
+    height: 45px;
+    border: 2px black solid;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #bfc7c7;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    margin: 50px 15px;
+}
+.footer-bottom > div{
+    width: calc((100% / 4) - 30px);
+}
+.footer-bottom > div > p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.footer-bottom > div > ul{
+    padding-left: 0;
+}
+.footer-bottom > div > ul > li{
+    min-height: 40px;
+}
+.footer-bottom > div:not(:last-child) > ul{
+    list-style-type: none;
+}
+.footer-bottom > div:last-child > ul{
+    list-style: inside;
+    font-weight: 700;
+}

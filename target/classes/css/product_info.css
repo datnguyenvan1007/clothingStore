@@ -1,0 +1,98 @@
+/* product-info */
+nav ul li a{
+    text-decoration: none !important;
+    color: black;
+}
+nav ul li a:hover{
+    color: #007bff;
+}
+
+.content{
+    width: 100%;
+}
+.content .left-info{
+	flex-wrap: wrap;
+    width: 8%;
+    padding: 5px;
+}
+.content .left-info > img{
+	margin-bottom: 7px;
+	transition: 1s;
+}
+.main-img{
+	transition: 1s;
+}
+.content .middle-info{
+    width: 52%;
+    padding: 5px 10px 0 5px;
+}
+.content .right-info{
+    width: 40%;
+    padding: 5px 10px 0 60px;
+}
+.content .right-info > div{
+    margin-bottom: 10px;
+}
+.product-name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-id::before{
+    content: 'Mã sản phẩm:';
+    color: darkgrey;
+    font-size: 17px;
+    font-weight: 500;
+}
+.product-id{
+    font-size: 13px;
+}
+.product-price{
+    font-size: 20px;
+}
+.product-color > button{
+    background-color: white;
+    border: none;
+    outline: 1px black solid;
+    margin-top: 10px;
+}
+
+.product-size > button{
+    background-color: white;
+    border: none;
+    outline: 1px black solid;
+    width: 45px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.product-quantity{
+    margin-top: 10px;
+}
+.product-quantity input{
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(206, 200, 200);
+    text-align: center;
+    outline: none;
+}
+.product-quantity button{
+    outline: none;
+    width: 45px;
+    height: 40px;
+    border: 1px solid rgb(206, 200, 200);
+    background-color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.product-order{
+    margin-top: 20px;
+}
+.product-order > button{
+    border: none;
+    order: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 50px;
+}

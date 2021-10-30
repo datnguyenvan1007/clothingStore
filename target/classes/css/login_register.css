@@ -1,0 +1,12 @@
+.bottom-form button{
+    width: 150px;
+    background-color: #bfc7c7;
+    border: 1px #bfc7c7 solid;
+}
+.bottom-form a{
+    text-decoration: none;
+    color: black;
+}
+.bottom-form a:hover{
+    color:rgb(16, 177, 177);
+}
